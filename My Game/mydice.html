@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mydice.css">
+    <title>My Dice Game</title>
+</head>
+<body>
+        <header id="title"><h1>Dice Game         <img src="Emoji.png"></h1></header>
+        <div>
+            <p id="rules">Roll 25 to win , 1 will kick u out! 
+            </p>
+        </div>
+        <div class = "gamepanel">
+                <div class="player-title"><h2 class="item">PLAYER</h2></div>
+                <div class="roll-container"><button class="item" id="roll-btn">ROLL DICE </button></div>
+                <div class="reset-container"><button class="item" id="reset-btn">RESET</button></div>
+                <div class="curr-score">
+                        <p>SCORE</p>
+                        <hr>
+                        <div id="total">0</div>
+                </div>
+                <div class="dice-container">
+                        <div class="dice-images">
+                            <img  src="img/dice1.png" id="diceImgObj" class="no-display">    
+                        </div> 
+                    </div>  
+                    <div class="msg">
+                        <h2 id="display-lose"></h2>
+                        <h2 id="display-win"></h2>
+                    </div>
+        </div>
+        <div id="emoji"></div>
+        <script src="mydice.js"></script>
+</body>
+</html>
